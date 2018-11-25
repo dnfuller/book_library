@@ -1,0 +1,53 @@
+body {
+  background-image: url('img/books.jpg');
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  font-family: 'Dancing Script', cursive;
+  background-color: white;
+  padding: 15px 10px 15px 10px;
+  margin-top: 15px;
+  margin-bottom: 250px;
+  border: solid 1px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"]
+{
+  font: 1.2em 'Dancing Script', cursive;
+}
+
+label, th, tr {
+  font: 1.2em 'Dancing Script', cursive;
+}
+
+.alert {
+  text-align: center;
+}
+
+.success, .error {
+  color: white;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+}
+
+.success {
+  background: green;
+}
+
+.error {
+  background: red;
+}
+
+#button {
+  background: black;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1em;
+}
